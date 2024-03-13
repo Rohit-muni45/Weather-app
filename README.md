@@ -1,0 +1,1 @@
+This is a weather app that gives weather-info about differnt cities in various countries.
