@@ -65,7 +65,7 @@ button:hover{
 
 @media only screen and (max-width: 768px) {
   body{
-    background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
+    background-image: url('https://images.unsplash.com/photo-1558486012-817176f84c6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D');
     background-size: cover; 
   }
   .weather-container {
