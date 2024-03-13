@@ -1,0 +1,90 @@
+body{
+  background-image: url('https://img.freepik.com/free-photo/2d-graphic-wallpaper-with-colorful-grainy-gradients_23-2151001541.jpg?w=360');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur; 
+}
+.spinner{
+  height: 300px;
+  margin-top: 100px;
+  display: block;
+}
+
+.weather-container {
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+  font-family:'Lucida Sans', 'Georgia';
+  color: aliceblue;
+  
+}
+
+.weather-data {
+  margin-top: 20px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: hsl(202, 71%, 48%);
+  
+}
+h2{
+  font-size: 2.5rem;
+  color: rgb(0, 255, 221);
+}
+.temp{
+  font-size: 3rem;
+  margin-top: 10px;
+  color:springgreen;
+}
+.weather,.des{
+  font-size: 1.5rem;
+
+}
+.error{
+  font-size: 2rem;
+}
+
+.input{
+  font-size: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button{
+  font-size: 1.5rem;
+  font-family: "Lucida Sans";
+  padding: 4px;
+  border-radius: 5px;
+  background-color: aqua;
+  cursor: pointer;
+}
+button:hover{
+  background-color: aquamarine;
+}
+
+@media (max-width: 768px) {
+  .weather-container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  body{
+    background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
+    background-size: cover;
+    
+  }
+  .weather-container {
+    max-width: 300px;
+  }
+  .weather-data{
+    /* margin-top: 100px; */
+    font-family:"Lucida Sans";
+    max-width: 300px;
+  }
+  .input{
+    font-size: 1.8rem;
+
+  }
+}
