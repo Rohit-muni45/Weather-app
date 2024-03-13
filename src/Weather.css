@@ -61,19 +61,21 @@ button:hover{
   background-color: aquamarine;
 }
 
+/* media queries */
+
 @media only screen and (max-width: 768px) {
   .weather-container {
     max-width: 300px;
   }
 }
 
-@media only screen and (min-width: 400px) and ( max-width: 500px) {
+@media only screen and (min-width: 400px) and ( max-width: 600px) {
   body{
     background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
     background-size: cover; 
   }
   .weather-container {
-    max-width: 300px;
+    max-width: 280px;
   }
   .weather-data{
     /* margin-top: 100px; */
@@ -81,8 +83,11 @@ button:hover{
     max-width: 300px;
   }
   .input{
-    font-size: 1.8rem;
-
+    font-size: 1.2rem;
+    margin-top: 3px;
+  }
+  button{
+    font-size: 1.2rem;
   }
 }
 
