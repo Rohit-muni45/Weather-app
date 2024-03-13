@@ -37,7 +37,9 @@ const Weather = () => {
   };
 
   return (
+    <>
     <div className="weather-container">
+      <h1>Weather App</h1>
       <input
         className='input'
         type="text"
@@ -70,6 +72,7 @@ const Weather = () => {
         <p className='error'>{error.response.data.message}</p>
       )}
     </div>
+    </>
   );
 };
 

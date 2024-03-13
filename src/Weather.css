@@ -16,9 +16,7 @@ body{
   text-align: center;
   font-family:'Lucida Sans', 'Georgia';
   color: aliceblue;
-  
 }
-
 .weather-data {
   margin-top: 20px;
   border: 3px solid;
@@ -63,17 +61,16 @@ button:hover{
   background-color: aquamarine;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .weather-container {
     max-width: 300px;
   }
 }
 
-@media (max-width: 500px) {
+@media only screen and (min-width: 400px) and ( max-width: 500px) {
   body{
     background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
-    background-size: cover;
-    
+    background-size: cover; 
   }
   .weather-container {
     max-width: 300px;
@@ -86,5 +83,30 @@ button:hover{
   .input{
     font-size: 1.8rem;
 
+  }
+}
+
+@media (max-width: 390px) {
+  body{
+    background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
+    background-size: cover; 
+  }
+  .weather-container{
+    max-width: 230px;
+  }
+  .input,button{
+    font-size: 1.2rem;
+  }
+  h2{
+    font-size: 2rem;
+    color: rgb(0, 255, 221);
+  }
+  .temp{
+    font-size: 2.5rem;
+    margin-top: 5px;
+    color:springgreen;
+  }
+  .weather,.des{
+    font-size: 1rem;
   }
 }
