@@ -64,9 +64,17 @@ button:hover{
 /* media queries */
 
 @media only screen and (max-width: 768px) {
+  body{
+    background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
+    background-size: cover; 
+  }
   .weather-container {
     max-width: 300px;
   }
+  .input,button{
+    font-size: 1.3rem;
+  }
+  
 }
 
 @media only screen and (min-width: 400px) and ( max-width: 600px) {
@@ -94,7 +102,8 @@ button:hover{
 @media (max-width: 390px) {
   body{
     background-image: url('https://img.freepik.com/premium-photo/blue-ice-land-sky-with-clouds-background_678264-1459.jpg?w=360');
-    background-size: cover; 
+    background-size: cover;
+    
   }
   .weather-container{
     max-width: 230px;
